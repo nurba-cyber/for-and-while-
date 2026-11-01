@@ -1,9 +1,8 @@
-x = input()
-d = input()
+a = int(input())
+b = int(input())
 
-c = 0
-for d in x:
-    if d == d:
-        c += 1
-
-print(c)
+i = 1
+while i * i <= b:
+    if i * i >= a:
+        print(i * i, end=' ')
+    i += 1
